@@ -2,28 +2,51 @@
     color:rgb(216, 0, 216);
 }
 
-  img{
-    position:relative;
+
+  .card_info{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_table{
+    width: 60%;
+    flex-grow: 1;
+  }
+
+  .card_img_div{
+    width: 40%;
+    min-width: 250px;
+    object-fit: contain;
+    flex-grow: 1;
+  }
+
+  .card_img{
     width: 100%;
+    height: auto;
+    object-fit: contain;
     border: 5px solid purple;
   }
 
-  p{
+  .card_p{
     margin-left: 15px;
     text-align: justify;
   }
 
-  h2{
+  .card_h2{
     color: cyan;
     text-align: left;
     margin-left: 15px;
   }
 
-  h1{
+  .card_h1{
+    font-size: 50px;
     color:cyan;
   }
 
-  h1:hover{
+  .card_h1:hover{
     text-decoration: underline;
   }
 
@@ -39,29 +62,32 @@
   }
   
   .container {
+    min-height: 625px;
     margin-top: 10%;
+    padding-bottom: 10%;
     position: relative;
     z-index: 0;
-    width: 1000px;
-    height: 600px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
     overflow: hidden;
-    padding: 2rem;
-    font-family: sans-serif;
-    font-weight: bold;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 0%;
+    font-family: inherit;
     
     &::before {
       content: '';
       position: absolute;
       z-index: -2;
-      left: -50%;
+      left: -150%;
       top: -50%;
-      width: 200%;
+      width: 400%;
       height: 200%;
-      /*background-color: #399953;*/
       background-repeat: no-repeat;
       background-size: 50% 50%, 50% 50%;
       background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-      background: linear-gradient(45deg, cyan,  #f222ff, #8c1eff,cyan,  #f222ff, #8c1eff);
+      background: linear-gradient(45deg, cyan,  #f222ff, #8c1eff,cyan,  #f222ff, #8c1eff,cyan,  #f222ff, #8c1eff);
       animation: rotate 4s linear infinite;
     }
     
@@ -74,6 +100,5 @@
       width: calc(100% - 12px);
       height: calc(100% - 12px);
       background: rgb(0, 0, 32);
-      /*border-radius: 5px;*/
     }
   }

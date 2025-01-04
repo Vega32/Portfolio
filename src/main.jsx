@@ -10,9 +10,14 @@ import Playlist from './assets/PlaylistSynchPic.png'
 import Messenger from './assets/MessengerPic.png'
 import Container from './Container.jsx'
 import Header from './Header.jsx'
+import AboutMe from './AboutMe.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Header/>
+    <AboutMe/>
+    <br />
+    <h1 style={{color:'gold'}}>Projects</h1>
     <Container title={"A Car to the Moon"} 
     image={ToTheMoon} 
     link={"https://starscourgevega.itch.io/a-car-to-the-moon"}
@@ -31,7 +36,7 @@ createRoot(document.getElementById('root')).render(
     <Container title={"Terminal Chunk Partitioner"} 
     image={Terminal} 
     link={"https://github.com/Vega32/Terminal_Chunk_Partitioner"}
-    description={"Terminal Chunk Partitioner was a the product of a group effort with a good friend of mine. We created this project during the Hack the Hill hackathon of 2023 hosted by the University of Ottawa. The program itself allows multiple machines to connect with one another and share files between them by splitting the file into chunks that are then distributed across the network. These files can then be downloaded by any node in the network. It's a simpler version of a torrent in a way."}
+    description={"Terminal Chunk Partitioner was a the product of a group effort with a good friend of mine. We created this project during the Hack the Hill hackathon of 2024 hosted by the University of Ottawa. The program itself allows multiple machines to connect with one another and share files between them by splitting the file into chunks that are then distributed across the network. These files can then be downloaded by any node in the network. It's a simpler version of a torrent in a way."}
     skill={"Python"}/>
     <Container title={"Playlist Synchronizer"} 
     image={Playlist} 

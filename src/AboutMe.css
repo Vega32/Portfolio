@@ -1,0 +1,32 @@
+.about_div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sunset_div{
+    width: 40%;
+    min-width: 300px;
+    padding-right: 5%;
+    padding-left: 5%;
+    flex-grow: 0;
+}
+
+.sunset{
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.about_p{
+    width: 60%;
+    text-align: left;
+    color: cyan;
+    font-size: x-large;
+}
+
+.about_p h1{
+    color: gold;
+    font-size: 50px;
+}
