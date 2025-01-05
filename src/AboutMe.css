@@ -24,6 +24,7 @@
     text-align: left;
     color: cyan;
     font-size: x-large;
+    flex-grow: 1;
 }
 
 .about_p h1{
