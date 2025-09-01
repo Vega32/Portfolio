@@ -18,21 +18,6 @@ createRoot(document.getElementById('root')).render(
     <AboutMe/>
     <br />
     <h1 style={{color:'gold'}}>Projects</h1>
-    <Container title={"A Car to the Moon"} 
-    image={ToTheMoon} 
-    link={"https://starscourgevega.itch.io/a-car-to-the-moon"}
-    description={"A Car to the Moon is a 3D platformer I developed by myself during winter of 2023. It's a relatively short game where you have to collect the missing pieces needed to fix your car. It's currently available on both Windows and Mac. On top of the code, all the assets (other than the soundtrack) were created by me."}
-    skill={"Godot game engine, Python, Blender"}/>
-    <Container title={"Blue Square"} 
-    image={BlueSquare} 
-    link={"https://starscourgevega.itch.io/blue-square"}
-    description={"Blue Square is the first game I ever published. It was initially created using Unity for the 2021 Boundless Game Jam. I later remade the game in Godot while introducing some improvements. In short it's a simple but hard platfomer designed to be entirely played with a single key."}
-    skill={"Unity, C#, Godot game engine, Python"}/>
-    <Container title={"Bio Weapon"} 
-    image={BioWeapon} 
-    link={"https://starscourgevega.itch.io/bio-weapon"}
-    description={"Bio Weapon was created in the context of the 2023 Global Game Jam hosted by Concordia University. It's a 2D top-down shooter taking where you take the role of a bio weapon doing... Well bio weapon stuff."}
-    skill={"Godot game engine, Python"}/>
     <Container title={"Terminal Chunk Partitioner"} 
     image={Terminal} 
     link={"https://github.com/Vega32/Terminal_Chunk_Partitioner"}
@@ -48,5 +33,20 @@ createRoot(document.getElementById('root')).render(
     link={"https://github.com/Vega32/TCP-Messaging"}
     description={"The TCP-Messaging app is exactly what the names says it is. It allows multiple devices to create a peer to peer connection and exchange messages with one of the devices acting as a host. I'm planning to add features to this program in the future such as the ability to send complete files and my integrate a system similar to the one present the the Terminal Chunk Partitioner."}
     skill={"C#"}/>
+    <Container title={"A Car to the Moon"} 
+    image={ToTheMoon} 
+    link={"https://starscourgevega.itch.io/a-car-to-the-moon"}
+    description={"A Car to the Moon is a 3D platformer I developed by myself during winter of 2023. It's a relatively short game where you have to collect the missing pieces needed to fix your car. It's currently available on both Windows and Mac. On top of the code, all the assets (other than the soundtrack) were created by me."}
+    skill={"Godot game engine, Python, Blender"}/>
+    <Container title={"Blue Square"} 
+    image={BlueSquare} 
+    link={"https://starscourgevega.itch.io/blue-square"}
+    description={"Blue Square is the first game I ever published. It was initially created using Unity for the 2021 Boundless Game Jam. I later remade the game in Godot while introducing some improvements. In short it's a simple but hard platfomer designed to be entirely played with a single key."}
+    skill={"Unity, C#, Godot game engine, Python"}/>
+    <Container title={"Bio Weapon"} 
+    image={BioWeapon} 
+    link={"https://starscourgevega.itch.io/bio-weapon"}
+    description={"Bio Weapon was created in the context of the 2023 Global Game Jam hosted by Concordia University. It's a 2D top-down shooter taking where you take the role of a bio weapon doing... Well bio weapon stuff."}
+    skill={"Godot game engine, Python"}/>
   </StrictMode>,
 )
