@@ -9,7 +9,9 @@ export default function Container(proms) {
             </a>
             <div className='card_info'>
                 <div className='card_img_div'>
-                <img className='card_img' src={proms.image} />
+                    <a href={proms.link}>
+                        <img className='card_img' src={proms.image} />
+                    </a>
                 </div>
                 <table className='card_table'>
                 <tbody>

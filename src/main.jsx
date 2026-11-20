@@ -10,6 +10,7 @@ import Playlist from './assets/PlaylistSynchPic.png'
 import Messenger from './assets/MessengerPic.png'
 import TrackMyDegree from './assets/TrackMyDegreePic.png'
 import RayTracer from './assets/RayTracerPic.png'
+import SemanticSearch from './assets/SemanticSearchPic.png'
 import Container from './Container.jsx'
 import Header from './Header.jsx'
 import AboutMe from './AboutMe.jsx'
@@ -26,6 +27,12 @@ createRoot(document.getElementById('root')).render(
     link={"https://trackmydegree.ca/"}
     description={"Track My Degree is my Software Engineering capstone project. Me and a team of other Software Engineering students were contracted by Concordia’s advisors to develop a web app that, like the name suggests, allows engineering and computer science students to track their progress in their current degree and plan out their path through Concordia. The site automatically updates its data by scraping the Concordia website and using its open API to help students build course timelines as well as verify graduation requirements. "}
     skill={"TypeScript, HTML, CSS, Python, Redis, MongoDB"}/>
+
+    <Container title={"Semantic Search"}
+    image={SemanticSearch}
+    link={"https://github.com/Vega32/SemanticSearch"}
+    description={"Semantic Search is an AI powered application for finding information across multiple documents using natural language. It goes beyond traditional keyword matching. It combines transformer-based semantic embeddings, BM25 keyword retrieval, hybrid ranking, and cross-encoder reranking to find relevant passages based on both meaning and textual relevance."}
+    skill={"Python, Machine Learning"}/>
 
     <Container title={"Ray Tracer"}
     image={RayTracer}
